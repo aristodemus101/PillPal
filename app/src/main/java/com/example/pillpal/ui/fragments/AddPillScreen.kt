@@ -17,7 +17,7 @@ fun AddMedicineScreen(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 32.dp), // Add padding from the top
+            .padding(top = 32.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -25,7 +25,7 @@ fun AddMedicineScreen(navController: NavController) {
             selectedTabIndex = selectedTab,
             modifier = Modifier
                 .fillMaxWidth()
-                .height(56.dp) // Add height to the TabRow
+                .height(56.dp)
         ) {
             Tab(
                 selected = selectedTab == 0,
