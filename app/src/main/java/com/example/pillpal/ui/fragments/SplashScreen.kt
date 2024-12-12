@@ -35,7 +35,7 @@ import kotlinx.coroutines.delay
 
 @Composable
 fun SplashScreen(navController: NavController) {
-    // Use a coroutine to navigate after a delay
+
     LaunchedEffect(Unit) {
         delay(3000)
         navController.navigate(Screen.HOME.name) {
@@ -43,7 +43,6 @@ fun SplashScreen(navController: NavController) {
         }
     }
 
-    // Animation state
     val scale = remember { Animatable(0f) }
 
     LaunchedEffect(Unit) {
@@ -63,7 +62,7 @@ fun SplashScreen(navController: NavController) {
         )
     }
 
-    // UI for the splash screen
+
     Surface(
         modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.primary
