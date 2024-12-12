@@ -1,4 +1,4 @@
-package com.example.pillpal.data
+package com.example.pillpal.data.models
 
 import java.time.LocalDate
 

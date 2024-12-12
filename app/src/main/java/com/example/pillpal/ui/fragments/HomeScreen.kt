@@ -24,7 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.pillpal.data.Medicine
+import com.example.pillpal.data.models.Medicine
 import com.example.pillpal.ui.navigation.Screen
 import java.time.LocalDate
 import java.time.YearMonth
